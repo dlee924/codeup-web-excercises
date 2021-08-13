@@ -19,17 +19,33 @@ console.log( userInput, "is my fav color is green too")
 
 
 
-var littleMermaid = prompt("how many days have you had the littleMermaid ")
+const littleMermaid = prompt("how many days have you had the littleMermaid ")
+
+// prompt window will pop up with message//
+
 
 alert(littleMermaid*3)
 
+// alert window will pop up with movie days * price//
 
-var Brotherbear = prompt("how many days have you had Brotherbear")
+
+const Brotherbear = prompt("how many days have you had Brotherbear")
+
+// prompt window will pop up with message//
 
 alert(Brotherbear*3)
 
+// alert window will pop up with movie days * price//
+
+
 var Herc = prompt("how many days have you had the Herc ")
+
+// prompt window will pop up with message//
+
 
 alert(Herc*3)
 
+// alert window will pop up with movie days * price//
+
 alert(littleMermaid*3+Brotherbear*3+Herc*3)
+// adds the total for LittleMermaid,Brother bear, and Herc movie days * price //
