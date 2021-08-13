@@ -10,13 +10,9 @@
  */
 
 function sayHello(userName){
-    return ("hi"+ userName);
+    return "hello"+ userName;}
 
-}
-
-function FavColor(color) {
-    return(color + " is a wonder color");
-}
+console.log(sayHello( +"codeup"))
 
 /**
  * TODO:
@@ -41,7 +37,7 @@ function FavColor(color) {
 
 var myName="darrell";
 
-sayHello(myName)
+console.log(sayHello(myName))
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
@@ -65,16 +61,14 @@ var random = Math.floor((Math.random() * 3) + 1);
  * number)
  */
 
+
+
 function isTwo(numbers) {
 
-    var random = numbers===2;
-
-    return true;
-
-
-
+    return numbers===2;
 }
 
+console.log(isTwo(random))
 
 /**
  * TODO:
@@ -89,10 +83,11 @@ function isTwo(numbers) {
  *
  */
 
-function calculateTip(totalBill) {
-    console.log(totalBill*0.15+"is your tip payment");
-}
+function calculateTip(totalBill,total) {
+    return totalBill*total;
 
+}
+console.log(totalBill+"is your tip payment");
 /**
 
 
@@ -102,9 +97,12 @@ function calculateTip(totalBill) {
  * prompt the user for the bill total and a percentage they would like to tip,
  * then display the dollar amount they should tip
  */
- var calculateTip = prompt("How much is your bill total ?")
+ var userBill = prompt("How much is your bill total ?")
 
-alert(calculateTip*0.15+"is your tip payment")
+var userTip = prompt("how much would you like to tip")
+
+
+alert(calculateTip(userTip,userBill+"is your tip payment"));
 
 
 
@@ -127,10 +125,10 @@ alert(calculateTip*0.15+"is your tip payment")
  * > applyDiscount(45.99, 0.12) // 40.4712
  */
 
-var discountPercentage= 0.25
 
- function applyDiscount(price) {
-     return price * discountPercentage;
+
+ function applyDiscount(price,DiscountPercentage) {
+     return price -(price*DiscountPercentage)
 
 
  }

@@ -67,12 +67,7 @@ alert(" your payment:" + facebook*350  )
 
 var student =
 
-var math= enrolled
-
-history= enrolled
-
-science= enrolled
-
+v
 
 
 
