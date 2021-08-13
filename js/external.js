@@ -53,15 +53,25 @@ alert(littleMermaid*3+Brotherbear*3+Herc*3)
 
 var google = prompt("how many hours did you work at google")
 
-alert( "you pay" + google*400)
+alert( "your payment" + google*400)
 
 var amazon= prompt("how may hours did you work at amazon")
 
-alert("payment:"+amazon*380)
+alert("your payment:"+amazon*380)
 
 const facebook= prompt("how long did you work at amazon")
 
-alert("payment:" + facebook*350  )
+alert(" your payment:" + facebook*350  )
+
+// new problem //
+
+var student =
+
+var math= enrolled
+
+history= enrolled
+
+science= enrolled
 
 
 
