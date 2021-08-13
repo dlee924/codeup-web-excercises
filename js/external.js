@@ -2,9 +2,7 @@ console.log("hello from external javascript")
 
 alert("welcome to my website !")
 // alert window will pop up with message.//
-
-
-var userInput ;
+let userInput ;
 
 userInput = prompt("what is your favorite color my fellow human")
 
@@ -38,7 +36,7 @@ alert(Brotherbear*3)
 // alert window will pop up with movie days * price//
 
 
-var Herc = prompt("how many days have you had the Herc ")
+const Herc = prompt("how many days have you had the Herc ")
 
 // prompt window will pop up with message//
 
@@ -49,3 +47,23 @@ alert(Herc*3)
 
 alert(littleMermaid*3+Brotherbear*3+Herc*3)
 // adds the total for LittleMermaid,Brother bear, and Herc movie days * price //
+
+
+// new problem//
+
+var google = prompt("how many hours did you work at google")
+
+alert( "you pay" + google*400)
+
+var amazon= prompt("how may hours did you work at amazon")
+
+alert("payment:"+amazon*380)
+
+const facebook= prompt("how long did you work at amazon")
+
+alert("payment:" + facebook*350  )
+
+
+
+
+
