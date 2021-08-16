@@ -109,7 +109,6 @@ alert(calculateTip(userTip,userBill+"is your tip payment"));
 
 
 
-
  /**
  * TODO:
  * Create a function named `applyDiscount`. This function should accept a price
