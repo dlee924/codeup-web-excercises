@@ -222,12 +222,12 @@ var discountFour =.50
 var discountFive = "Free"
 
 
-let billTotal = random
+let billTotal = "random"
 
 
 
 
-function calculateTip (discountOne,billTotal){
+function calculateTip (discounts,billTotal){
     return (discountOne*billTotal);
 
 }
@@ -241,12 +241,28 @@ calculateTip()
  * and alerts to display to the user what their lucky number was, what their
  * price before the discount was, and what their price after the discount is.
  */
+//Generate a random number between 0 and 6;
 
- Generate a random number between 0 and 6
-
-var luckyNumber = Math.floor(Math.random() * 6);
+//var luckyNumber = Math.floor(Math.random() * 6);
 
 
+
+
+function calculateTip(totalBill, luckyNumber) {
+
+
+    var luckyNumber = Math.floor(Math.random() * 6);
+
+    var totalBill = prompt("what is you bill Total?")
+
+    alert("your lucky Number was ???"+ luckyNumber);
+
+    alert(totalBill+"is your total bill!! ");
+
+    alert("you bill after discount"+totalBill*luckyNumber);
+}
+
+calculateTip();
 
 
 
@@ -266,4 +282,7 @@ var luckyNumber = Math.floor(Math.random() * 6);
  *
  * Can you refactor your code to use functions?
  * HINT: The way we prompt for a value could be improved
+ *
  */
+
+confirm("would you like to pick a number")
