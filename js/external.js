@@ -21,8 +21,8 @@ const littleMermaid = prompt("how many days have you had the littleMermaid ")
 
 // prompt window will pop up with message//
 
-
-alert(littleMermaid*3)
+;
+alert("You owe: "+littleMermaid*3, "" +"Thanks for using our services.")
 
 // alert window will pop up with movie days * price//
 
@@ -31,7 +31,7 @@ const Brotherbear = prompt("how many days have you had Brotherbear")
 
 // prompt window will pop up with message//
 
-alert(Brotherbear*3)
+alert("You owe "+Brotherbear*3+"Thanks for using our services.")
 
 // alert window will pop up with movie days * price//
 
@@ -41,7 +41,7 @@ const Herc = prompt("how many days have you had the Herc ")
 // prompt window will pop up with message//
 
 
-alert(Herc*3)
+alert("You owe: "+ Herc*3+"Thanks for using our services.")
 
 // alert window will pop up with movie days * price//
 
@@ -63,11 +63,16 @@ const facebook= prompt("how long did you work at amazon")
 
 alert(" your payment:" + facebook*350  )
 
-// new problem //
+// new problem product offer //
 
-var student =
+var itemNumber =prompt("how many items are in your cart");
 
-v
+var offerValid = confirm("do you have a discount ??");
+
+var isPremiumMem =confirm("do you have a premium membership") ;
+
+alert("customer qualifies for offer?"+((itemNumber>2 || isPremiumMem) && offerValid));
+
 
 
 
