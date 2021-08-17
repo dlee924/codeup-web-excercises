@@ -285,4 +285,32 @@ calculateTip();
  *
  */
 
-confirm("would you like to pick a number")
+
+
+
+    function chooseNumber (Number) {
+
+        var randomNumber =Math.random()
+
+    var  number =confirm ("would you like to pick a number"+randomNumber)
+
+    var number = prompt("choose a number")
+
+    if (number==="odd"){alert("this number is odd")
+    }
+    else if (number===2){alert("this number is +100"+chooseNumber+100)
+
+    }
+
+
+
+
+
+}
+
+
+chooseNumber();
+
+
+
+
