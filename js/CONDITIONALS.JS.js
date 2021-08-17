@@ -259,7 +259,7 @@ function calculateTip(totalBill, luckyNumber) {
 
     alert(totalBill+"is your total bill!! ");
 
-    alert("you bill after discount"+totalBill*luckyNumber);
+    alert("you bill after discount"+totalBill+luckyNumber*0.15);
 }
 
 calculateTip();
@@ -288,28 +288,16 @@ calculateTip();
 
 
 
-    function chooseNumber (Number) {
+var  userInput =confirm ("would you like to pick a number")
 
-        var randomNumber =Math.random()
+var pickNumber = prompt("choose a number, 1 ,2,3")
 
-    var  number =confirm ("would you like to pick a number"+randomNumber)
-
-    var number = prompt("choose a number")
-
-    if (number==="odd"){alert("this number is odd")
-    }
-    else if (number===2){alert("this number is +100"+chooseNumber+100)
-
-    }
+if (pickNumber % 3===0){alert("this number is even ")}
+else{alert("this number is even")}
 
 
 
 
-
-}
-
-
-chooseNumber();
 
 
 
