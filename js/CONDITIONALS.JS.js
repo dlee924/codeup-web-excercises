@@ -1,49 +1,49 @@
 "use strict";
 
-/* ########################################################################## */
-
-/**
- * TODO:
- * Create a function named `analyzeColor` that accepts a string that is a color
- * name as input. This function should return a message that related to that
- * color. Only worry about the colors defined below, if the color passed is not
- * one of the ones defined below, return a message that says so
- *
- * Example:
- *  > analyzeColor('blue') // returns "blue is the color of the sky"
- *  > analyzeColor('red') // returns "Strawberries are red"
- *  > analyzeColor('cyan') // returns "I don't know anything about cyan"
- *
- * You should use an if-else-if-else block to return different messages.
- *
- * Test your function by passing various string literals to it and
- * console.logging the function's return value
- */
-
-
-
-
-function analyzeColor(color) {
-
-    var color = prompt("what color do you like better blue,red,cyan ");
-
-
-    if (color==="red"){
-        console.log(('strawberries are red' + color));;}
-
-    else if (color==="blue"){
-        console.log(("the ocean is" + color));}
-
-else if (color==="cyan"){
-        console.log(("the sky is the same color" + color));
-    }
-    else{
-        console.log(("This is not a color we have Sorry!!" + color));};
-
-
-
-}
-analyzeColor()
+// /* ########################################################################## */
+//
+// /**
+//  * TODO:
+//  * Create a function named `analyzeColor` that accepts a string that is a color
+//  * name as input. This function should return a message that related to that
+//  * color. Only worry about the colors defined below, if the color passed is not
+//  * one of the ones defined below, return a message that says so
+//  *
+//  * Example:
+//  *  > analyzeColor('blue') // returns "blue is the color of the sky"
+//  *  > analyzeColor('red') // returns "Strawberries are red"
+//  *  > analyzeColor('cyan') // returns "I don't know anything about cyan"
+//  *
+//  * You should use an if-else-if-else block to return different messages.
+//  *
+//  * Test your function by passing various string literals to it and
+//  * console.logging the function's return value
+//  */
+//
+//
+//
+//
+// function analyzeColor(color) {
+//
+//     var color = prompt("what color do you like better blue,red,cyan ");
+//
+//
+//     if (color==="red"){
+//         console.log(('strawberries are red' + color));;}
+//
+//     else if (color==="blue"){
+//         console.log(("the ocean is" + color));}
+//
+// else if (color==="cyan"){
+//         console.log(("the sky is the same color" + color));
+//     }
+//     else{
+//         console.log(("This is not a color we have Sorry!!" + color));};
+//
+//
+//
+// }
+// analyzeColor()
 
 
 
@@ -111,38 +111,46 @@ analyzeColor()
 // var randomColor =  colors[Math.floor(Math.random() * colors.length)];
 //
 //
-// switch (randomColor) {
-//     case "red":
-//         alert("this is red");
-//         break;
-//     case "orange":
-//         alert("basketballs are orange");
-//         break;
-//     case"yellow":
-//         alert("the sun is yellow");
-//         break;
-//     case"green":
-//         alert(" the grass is always greener on the other side");
-//         break;
-//     case"blue":
-//         alert("The sky is blue");
-//         break;
-//     case"indigo":
-//         alert("what color is this ???")
-//         break;
-//     case"violet":
-//         alert("this is another blue")
-//         break;
-//     default:
-//         alert(randomColor + "I just love all colors :) ")
+// function analyzeColor(colors) {
+//
+//
+//     switch (randomColor) {
+//         case "red":
+//             console.log(("this is red"));;
+//             break;
+//         case "orange":
+//             console.log(("basketballs are orange"));;
+//             break;
+//         case"yellow":
+//             console.log(("the sun is yellow"));;
+//             break;
+//         case"green":
+//             console.log((" the grass is always greener on the other side"));;
+//             break;
+//         case"blue":
+//             console.log(("The sky is blue"));;
+//             break;
+//         case"indigo":
+//             console.log("what color is this ???")
+//             break;
+//         case"violet":
+//             console.log("this is another blue")
+//             break;
+//         default:
+//             console.log(randomColor + "I just love all colors :) ")
+//
+//     }
+//
 // }
 //
 //
-//
-//
-//
-//
-//
+// analyzeColor()
+
+
+
+
+
+
 // /**
 //  * TODO:
 //  * Prompt the user for a color when the page loads, and pass the input from the
@@ -235,32 +243,40 @@ analyzeColor()
 //
 //
 // function calculateTip (discounts,billTotal){
-//     return (discountOne*billTotal);
+//     return (discounts*billTotal-billTotal);
 //
 // }
 //
 // calculateTip()
-//
-// /**
-//  * TODO:
-//  * Uncomment the line below to generate a random number between 0 and 6.
-//  * Prompt the user for their total bill, then use your `calculateTotal` function
-//  * and alerts to display to the user what their lucky number was, what their
-//  * price before the discount was, and what their price after the discount is.
-//  */
-// //Generate a random number between 0 and 6;
-//
-// //var luckyNumber = Math.floor(Math.random() * 6);
-//
-//
-//
-//
+
+
+
+
+
+
+
+/**
+ * TODO:
+ * Uncomment the line below to generate a random number between 0 and 6.
+ * Prompt the user for their total bill, then use your `calculateTotal` function
+ * and alerts to display to the user what their lucky number was, what their
+ * price before the discount was, and what their price after the discount is.
+ */
+//Generate a random number between 0 and 6;
+
+var luckyNumber = Math.floor(Math.random() * 6);
+
+
+
+
 // function calculateTip(totalBill, luckyNumber) {
 //
 //
 //     var luckyNumber = Math.floor(Math.random() * 6);
 //
-//     var totalBill = prompt("what is you bill Total?")
+//     var totalBill = prompt("what is you bill Total?");
+//
+//     // var pay = calculateTip(totalBill,luckyNumber);
 //
 //     alert("your lucky Number was ???"+ luckyNumber);
 //
@@ -274,36 +290,51 @@ analyzeColor()
 //
 //
 //
-// /**
-//  * TODO:
-//  * Write some JavaScript that uses a `confirm` dialog to ask the user if they
-//  * would like to enter a number. If they click 'Ok', prompt the user for a
-//  * number, then use 3 separate alerts to tell the user:
-//  *
-//  * - whether the number is even or odd
-//  * - what the number plus 100 is
-//  * - if the number is negative or positive
-//  *
-//  * if what the user enters is not a number, use an alert to tell them that, and
-//  * do *not* display any of the above information.
-//  *
-//  * Can you refactor your code to use functions?
-//  * HINT: The way we prompt for a value could be improved
-//  *
-//  */
-//
-//
-//
-//
-// var  userInput =confirm ("would you like to pick a number")
-//
-// var pickNumber = prompt("choose a number, 1 ,2,3")
-//
-// if (pickNumber % 3===0){alert("this number is even ")}
-// else{alert("this number is even")}
-//
-//
-//
+/**
+ * TODO:
+ * Write some JavaScript that uses a `confirm` dialog to ask the user if they
+ * would like to enter a number. If they click 'Ok', prompt the user for a
+ * number, then use 3 separate alerts to tell the user:
+ *
+ * - whether the number is even or odd
+ * - what the number plus 100 is
+ * - if the number is negative or positive
+ *
+ * if what the user enters is not a number, use an alert to tell them that, and
+ * do *not* display any of the above information.
+ *
+ * Can you refactor your code to use functions?
+ * HINT: The way we prompt for a value could be improved
+ *
+ */
+
+
+
+
+var  userInput =confirm ("would you like to pick a number")
+
+ var pickNumber = prompt("choose a number, 1 ,2,3")
+
+if (pickNumber % 2===0){alert("this number is even ")}
+else{alert("this number is odd")
+
+
+var plusHundred = pickNumber +100;
+
+    alert(pickNumber+plusHundred)
+
+    if(pickNumber > 0){alert(pickNumber+ "you got a positive number")}
+else if(0<0){
+    alert(pickNumber+ "is a negative number my friend")
+
+
+    }
+
+}
+
+
+
+
 
 
 
