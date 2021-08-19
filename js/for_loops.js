@@ -1,6 +1,3 @@
-console.log('hello')
-
-
 var i=1;
 
 function showMultiplicationTable(num) {
@@ -49,9 +46,19 @@ for(var num=20; num<=200; num++) {
         console.log(userNum + "is odd")
     }
     ;
+    break;
 
 
 }
 
+
+
+
+new problem//
+
+
+for (var j = 1; j <= 9; j = j +1) {
+    console.log(j.toString().repeat(i));
+}
 
 
