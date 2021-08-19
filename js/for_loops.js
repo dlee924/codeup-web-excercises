@@ -38,7 +38,6 @@ for(var num=20; num<=200; num++) {
 
 
     // shows a message in console displaying if number is even or odd//
-    // num % 2 == 0 ? console.log(`${num} is even`) : console.log(`${num} is odd`);
 
     if (userNum % 2 == 0 ) {
         console.log(userNum + "is even")
@@ -54,11 +53,16 @@ for(var num=20; num<=200; num++) {
 
 
 
-new problem//
+//new problem//
 
 
 for (var j = 1; j <= 9; j = j +1) {
-    console.log(j.toString().repeat(i));
+    console.log(j.toString().repeat(j));
 }
+
+
+
+
+
 
 
