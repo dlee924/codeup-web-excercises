@@ -309,11 +309,22 @@ var luckyNumber = Math.floor(Math.random() * 6);
  */
 
 
-
+// pull us confirm window asking user "would you like a number"//
 
 var  userInput =confirm ("would you like to pick a number")
 
+
+// pulls up prompt widow telling user to choose a number//
  var pickNumber = prompt("choose a number, 1 ,2,3")
+
+
+
+if (isNaN(pickNumber)){
+
+    alert("Hello my friend this is not a number")};
+
+
+// if/else statment for
 
 if (pickNumber % 2===0){alert("this number is even ")}
 else{alert("this number is odd")
@@ -338,5 +349,39 @@ else if(0<0){
 
 
 
-
-
+// // refactored problem//
+//
+// function evenOrOdd(num) {
+//     if (num % 2 ===0){
+//         return true;
+//     }
+//
+//     else { return false
+//     }
+//
+// }
+//
+// function isHundred(num) {
+//
+//     return num + 100;
+//
+// }
+//
+//
+// function posOrNeg(num) {
+//
+//     if (num<0){
+//         return false;
+//     }
+//     else {
+//         return true;
+//     };
+//
+// }
+//
+// posOrNeg()
+//
+// isHundred()
+//
+// evenOrOdd()
+//
