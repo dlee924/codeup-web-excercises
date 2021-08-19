@@ -64,7 +64,17 @@
 
 for (var i = 100; i >=1 ; i = i -5){console.log(i.toString())
 
+}
 
+
+//new problem break and continue//
+
+
+for (var b = 1; b <= 49; b = b + 2 ){
+
+    console.log("here's an odd number" + b.toString())
+
+    var skipTwentySeven = 27
 }
 
 
