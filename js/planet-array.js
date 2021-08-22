@@ -64,9 +64,7 @@
     // new problem //
 
     console.log('Removing "Pluto" from the end of the planets array.');
-    console.log(planets);
 
-    console.log(planets);
 
     console.log('removing pluto: ' + planets[planets.length - 1])
 
@@ -80,14 +78,22 @@
     // new problem //
 
     console.log("Reversing the order of the planets array.");
-    console.log(planets.reverse());
 
+
+    planets.reverse()
+
+    console.log(planets)
 
 
 
 
     // new problem //
     console.log("Sorting the planets array.");
-    console.log(planets.sort());
+
+    planets.sort()
+
+    console.log(planets);
+
+
 })();
 
