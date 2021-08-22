@@ -21,21 +21,12 @@
      // * results. Why might this be useful?
      // *
 
-        var listPlanets = planetsString.split("|");
+var brPlanetsString = "Mercury<br>Venus<br>Earth<br>Mars<br>Jupiter<br>Saturn<br>Uranus<br>Neptune";
 
-        var brPlanets = "Mercury <br> Venus <br> Earth <br> Mars <br> Jupiter <br> Saturn <br> Uranus <br> Neptune"
-
-
-     console.log(listPlanets);
-
-     console.log(brPlanets)
+console.log((brPlanetsString));
 
 
-
-
-
-
-     // * BONUS:
+// * BONUS:
      // * Create another string that would display your planets in an undordered
      // * list. You will need an opening AND closing <ul> tags around the entire
      // * string, and <li> tags around each planet.
