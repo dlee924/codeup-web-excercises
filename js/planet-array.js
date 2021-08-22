@@ -1,86 +1,93 @@
-// (function(){
-//     "use strict";
-//
-//     var planets = [
-//         'Mercury',
-//         'Venus',
-//         'Earth',
-//         'Mars',
-//         'Jupiter',
-//         'Saturn',
-//         'Uranus',
-//         'Neptune'
-//     ];
-//
-//     /**
-//      * TODO:
-//      * Read each console log below, and write some javascript code to perform
-//      * the step that it describes
-//      */
-//
-//     console.log('Adding "The Sun" to the beginning of the planets array.');
-//     console.log(planets);
-//
-//     console.log('Adding "Pluto" to the end of the planets array.');
-//     console.log(planets);
-//
-//     console.log('Removing "The Sun" from the beginning of the planets array.');
-//     console.log(planets);
-//
-//     console.log('Removing "Pluto" from the end of the planets array.');
-//     console.log(planets);
-//
-//     console.log('Finding and logging the index of "Earth" in the planets array.');
-//
-//     console.log("Reversing the order of the planets array.");
-//     console.log(planets);
-//
-//     console.log("Sorting the planets array.");
-//     console.log(planets);
-// })();
+(function(){
+    "use strict";
+
+    var planets = [
+        'Mercury',
+        'Venus',
+        'Earth',
+        'Mars',
+        'Jupiter',
+        'Saturn',
+        'Uranus',
+        'Neptune',
+    ];
+
+    /**
+     * TODO:
+     * Read each console log below, and write some javascript code to perform
+     * the step that it describes
+     */
+
+     console.log('Adding "The Sun" to the beginning of the planets array.');
+
+        // adding the sun to the beginning of the array//
+        console.log(planets.unshift("sun"))
+
+
+        // log what we did //
+        console.log(planets);
+
+
+
+    //new problem//
+     console.log('Adding "Pluto" to the end of the planets array.');
+
+     // removing the last item in the array or ['pluto']
+     console.log(planets.push("pluto"));
+
+
+    // log what we did //
+
+    console.log(planets);
 
 
 
 
-// var names = "darrell daryl andrew"
-//
-// var namesArray = names.split("darrell, daryl, andrew")
-//
-// console.log(namesArray)
-// //
-//
-//
-// var nameString = namesArray.join();
-//
-// console.log(nameString);
+    // new problem //
+
+    console.log('Removing "The Sun" from the beginning of the planets array.')
 
 
-var phoneNums = '2105556262 2105552121  2105558272'
-
-var cleanPhoneNums =phoneNums.split('2105556262, 2105552121 , 2105558272');
-
-console.log(cleanPhoneNums)
+    // maiking a variable with .shift to remove the ['sun'] Array//
+    var removedItem = planets.shift();
 
 
-
-// var phoneNums = '2105556262\n 2105552121\n  2105558272'
-//
-// function cleanNumbers(phoneString) {
-//
-//     var cleanNumbers = [];
-//
-//     //split phone numbers
-//
-//
-//     var cleanNumbers =phoneNums.split('\n');
-//
-//
-//
-// return cleanNumbers;
+    //removing the first index in the array or ['sun']//
+    console.log("here" + removedItem)
 
 
+    // log what we did //
+
+    console.log(planets)
+
+
+    // new problem //
+
+    console.log('Removing "Pluto" from the end of the planets array.');
+    console.log(planets);
+
+    console.log(planets);
+
+    console.log('removing pluto: ' + planets[planets.length - 1])
+
+    var removedItem = planets.pop();
+
+    console.log("here" + removedItem)
+
+    console.log(planets)
+
+
+    // new problem //
+
+    console.log("Reversing the order of the planets array.");
+    console.log(planets.reverse());
 
 
 
 
+
+    // new problem //
+    console.log("Sorting the planets array.");
+    console.log(planets.sort());
+})();
 
