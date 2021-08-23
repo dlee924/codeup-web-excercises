@@ -11,7 +11,7 @@
      * console.log planetsArray to check your work
      */
 
-    var planetsArray = planetsString.split(',')
+    var planetsArray = planetsString.split('|')
 
     console.log(planetsArray);
 
@@ -21,9 +21,14 @@
      // * results. Why might this be useful?
      // *
 
-var brPlanetsString = "Mercury<br>Venus<br>Earth<br>Mars<br>Jupiter<br>Saturn<br>Uranus<br>Neptune";
+var brPlanetsString = "Mercury<br>Venus<br>Earth<br>Mars<br>Jupiter<br>Saturn<br>Uranus<br>Neptune"
 
-console.log((brPlanetsString));
+console.log(brPlanetsString)
+
+
+// another way to code the problem //
+
+//planetsArray.join("<br>")
 
 
 // * BONUS:
@@ -31,5 +36,15 @@ console.log((brPlanetsString));
      // * list. You will need an opening AND closing <ul> tags around the entire
      // * string, and <li> tags around each planet.
      // */
+
+
+var ulPlanets = planetsString.split("|");
+var lPlanets = "<ul>" + "<li>" + ulPlanets.join("</li><li>") + "</li>" + "</ul>";
+console.log(lPlanets);
+console.log(ulPlanets);
+
+
+
+
 
 // })();
