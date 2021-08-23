@@ -49,6 +49,7 @@
 
 
     // maiking a variable with .shift to remove the ['sun'] Array//
+
     var removedItem = planets.shift();
 
 
@@ -73,6 +74,14 @@
     console.log("here" + removedItem)
 
     console.log(planets)
+
+    // new problem//
+
+
+
+    console.log('Finding and logging the index of "Earth" in the planets array.');
+
+    console.log(planets.indexOf('earth'));
 
 
     // new problem //

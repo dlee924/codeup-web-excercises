@@ -43,7 +43,7 @@ console.log("hello")
      */
 
         for (var start = 0 ; start < names.length ; start++){
-            console.log("the names of my family" + start+ names[start])
+            console.log("the names of my family" + names[start])
         }
 
 
@@ -105,5 +105,5 @@ returnLastItem()
 
 
 
-
+//
 // })();
