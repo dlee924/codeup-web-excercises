@@ -121,9 +121,31 @@ console.log(discountsAmount())
      */
 
 
-var books = [
 
-    ]
+    // creating an Array inside an object with parameters"title" and "author"//
+    var books = [
+
+        {title: "To Kill A Mockingbird", author:"Harper Lee"},
+
+        {title:"the Great Gatsby", author:"f. scott Fitzgerald"},
+
+        {title: "Junie B. Jones ", author:"Barbara Parks"},
+
+        {title:" The Art Of War", author:"Sun Tzu"},
+
+        {title:"Emotions Revealed", author:"Paul Eckman"}]
+
+
+
+       // logging the book var//
+        console.log(books);
+
+
+
+
+
+
+
 
 
     /**
@@ -150,6 +172,16 @@ var books = [
      *      ---
      *      ...
      */
+
+
+
+
+
+
+    var book1 = books.indexOf(0)
+
+
+
 
     /**
      * Bonus:

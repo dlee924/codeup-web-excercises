@@ -28,6 +28,8 @@
 //
 //
 // //arguments and parameters//
+
+
 //
 //
 // function add (x,y) {return x + Y;
@@ -70,3 +72,23 @@
 //
 // }}
 //
+
+
+
+
+
+
+
+
+// quick .math exercise //
+
+
+function rollSixSided(number) {
+
+// for (var i = 0; i < number; i++){}
+
+     return Math.floor(Math.random() * 7)
+    
+}
+
+console.log("you rolled a"+' '+rollSixSided())
