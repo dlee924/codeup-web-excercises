@@ -181,6 +181,9 @@ console.log(discountsAmount())
     var book1 = books.indexOf(0)
 
 
+console.log(book1)
+
+
 
 
     /**
