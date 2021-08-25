@@ -40,14 +40,12 @@
      */
 
     var sayHello = function () {
-        alert("hello" +" "+ firstLastnames.first +" "+ firstLastnames.Last);
+         return ("Hi my name is " +" "+ firstLastnames.first +" "+ firstLastnames.Last);
     }
 
 
-     person.greetings = sayHello();
 
-
-            console.log(person.greetings);
+            console.log(sayHello());
 
 
 
@@ -70,7 +68,7 @@
 
 
 
-   // array variable //
+   // array variable with parameters "name" and "amount" //
     var shoppers = [
         {name: 'Cameron', amount: 180},
         {name: 'Ryan', amount: 250},
@@ -79,7 +77,7 @@
 
 
 
-
+// creating a function with a .forEach loop for shopper to get there "discounts Amount" //
         function discountsAmount() {
 
             shoppers.forEach(function (shopper) {
@@ -90,7 +88,7 @@
 
                     var beforeDiscount = shopper.amount * 0.12;
 
-                    console.log(shopper.name +','+ shopper.amount +','+ beforeDiscount +',' + discountPrice )
+                    console.log("Hi "+ shopper.name +','+"you amount total is"+','+ shopper.amount +',' +"your discount is"+' '+ +beforeDiscount +',' +','+"Your price after discount"+ discountPrice )
                 }
 
                 else {
@@ -101,6 +99,8 @@
 
 
         }
+
+// logging the discountsAmounts//
 
 console.log(discountsAmount())
 
@@ -178,10 +178,17 @@ console.log(discountsAmount())
 
 
 
-    var book1 = books.indexOf(0)
 
 
-console.log(book1)
+// loop through the array and log the values//
+for (var i = 0; i < books.length; i++) {
+    console.log('The book ' + i + ' is: ' + books[i]);
+
+}
+
+
+
+
 
 
 
