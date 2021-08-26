@@ -27,7 +27,17 @@
 
 
 
+// another way//
 
+// var person = {
+//
+//     first : 'Darrell',
+//
+//     Last : 'Armstrong'}
+//
+// console.log(person.first)
+// console.log(person.Last)
+// }
 
     /**
      * TODO:
@@ -46,6 +56,9 @@
 
 
             console.log(sayHello());
+
+
+
 
 
 
@@ -180,14 +193,20 @@ console.log(discountsAmount())
 
 
 
-// loop through the array and log the values//
-for (var i = 0; i < books.length; i++) {
-    console.log('The book ' + i + ' is: ' + books[i]);
 
-}
+    // loop through the array and log the values//
 
 
 
+function f() {
+        
+    }
+
+
+ // books.forEach(function (book, index) {
+ //     console.log()
+
+// })
 
 
 
@@ -203,5 +222,15 @@ for (var i = 0; i < books.length; i++) {
      *   outputs the information described above. Refactor your loop to use your
      *   `showBookInfo` function.
      */
+
+    
+
+
+
+
+
+
+
+
 
 //})();
