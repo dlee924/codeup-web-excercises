@@ -5,29 +5,41 @@
     <title>"Register With Us</title>
 </head>
 <body>
+<!--// header for web page//-->
 
+<h1> Veridian Dynamics Forms</h1>
+
+<!--// creates an email "form" for user to type username and password//-->
 
     <form method="Get" action="https://request-inspector.glitch.me/">
 
+                <label id="email">Email</label>
+              <input type="text" name="email" placeholder=" Email address@">
 
-              <input type="text" name="email" placeholder="Enter your email address">
+        <br>
+        <br>
+
+                <label id="password">Password</label>
+              <input type="password" name="password" placeholder="Enter your Password">
+
 
         <br>
         <br>
 
 
-              <input type="password" name="password" placeholder="Enter your email address">
+        <!--// creates a text area for user to type Bio//-->
 
-
-        <br>
-        <br>
-
-        <textarea name="bio" placeholder="tell us more about yourself"></textarea>
+                <label idk="text">Bio</label>
+                <textarea name="bio" placeholder="tell us more about yourself"></textarea>
 
 
 
 
         <hr>
+
+        <!--// creates a "radio button" menu asking user to choose an option //-->
+
+        <h3>How did you here about us</h3>
 
         Billboard <input type="radio" name="survey" value="billboard"><br>
         radio advertisement <input type="radio" name="survey" value="radio"><br>
@@ -38,10 +50,11 @@
         <hr>
 
 
+        <!--// creates a dropdown menu asking user to choose an option //-->
 
        <h2>what kind of browser do you use ?</h2>
 
-        <select name="coffee_preference">
+        <select name="Browser use">
             <option value="I.E">Internet explorer</option>
             <option value="firefox">Fire Fox</option>
             <option value="apple">safari</option>
@@ -50,16 +63,15 @@
 
         <br>
         <br>
+
+        <!--// submit button  //-->
+
         <button type="submit">Submit the form</button>
 
 
 
 
-
-
-
-
-</form>
+    </form>
 
 
 </body>
