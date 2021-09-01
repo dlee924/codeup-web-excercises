@@ -42,8 +42,9 @@
             if (doRounding == true) {
                 console.log("Area of a circle with radius: " + this.radius + ", is: " + Math.round(this.getArea()));
 
-            } else {
-               return false;
+            } else {            console.log("Area of a circle with radius: " + this.radius + ", is: " + this.getArea());
+
+
             }
 
 
