@@ -80,15 +80,33 @@
 
 
 
-// quick .math exercise //
+// // quick .math exercise //
+//
+//
+// function rollSixSided(number) {
+//
+// // for (var i = 0; i < number; i++){}
+//
+//      return Math.floor(Math.random() * 7)
+//
+// }
+//
+// console.log("you rolled a"+' '+rollSixSided())
 
 
-function rollSixSided(number) {
 
-// for (var i = 0; i < number; i++){}
 
-     return Math.floor(Math.random() * 7)
-    
+
+
+function tellFortune(number,partnerName,location,job) {
+
+     console.log(" hi "+" you will be married to "+partnerName+"you will have a job in "+ job+"living in "+ location)
+
+     console.log("you will have "+ number +"kids "+ "when you live in "+ location)
+
+     console.log("hi "+ name +"you will live in " + location+ "with " +number+ "kids !")
+
+
 }
 
-console.log("you rolled a"+' '+rollSixSided())
+console.log(tellFortune(4,"darrell","killeen","technology"))
