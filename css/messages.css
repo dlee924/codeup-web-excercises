@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 50%;
+    margin: 0;
+    font-family: Arial, Ubuntu, sans-serif;
+}
+
+
+
+
+/*change message info to blue*/
+.message-info {
+    color: blue;
+    background-color: lightblue;
+}
+
+
+
+
+.message-success {
+    color: #196836;
+    background-color: #c8ebd3;
+}
+
+
+/*change message error color*/
+
+.message-error {
+    color: #a71136;
+    background-color: #a67677;
+}
+
+/*change message warning color*/
+.message-warning {
+    color: #bbb781;
+    background-color: #dedeae;
+}
+
+
+/*change all message class color*/
+.message {
+    border: 1px solid lightgrey;
+    margin: 8px;
+    font-size: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+

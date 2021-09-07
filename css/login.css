@@ -101,4 +101,8 @@ fieldset {
     /* HINT: Calculate based on the padding of the `.btn` class */
     /* HINT: Examples are available at: https://glitch.com/~input-button-width */
     width: 100%;
+    padding: 4px 0;
+
+    /*width: calc();*/
 }
+
