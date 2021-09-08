@@ -1,17 +1,13 @@
 :root {
-    --main-bg: #4ca7e5;
+    --main-bg: #E6ECF0;
     --link-color: #3B94D9;
     --main-link-color: #848487;
-    --light-bg: #e11c1c;
+    --light-bg: #FFF;
     --separator-color: #DDD;
 }
-
-
 * {
     box-sizing: border-box;
 }
-
-
 body, html {
     background-color: var(--main-bg);
     height: 100%;
@@ -19,56 +15,31 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, Ubuntu, sans-serif;
-
-
 }
-
-/*.ul{*/
-/*    position: center;*/
-/*}*/
-
-
 header {
     background-image: url("https://picsum.photos/1200/300");
     background-size: cover;
     min-height: 300px;
     padding-top: 275px;
-    display: inline-block;
-    position: center;
-
 }
 a {
     color: var(--link-color);
-    display: inline-block;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none
 }
 .top-nav {
     background: var(--light-bg);
-    width:100%;
-    padding: 1.5em;
-    position: fixed;
-
-
 }
 .nav {
     list-style-type: none;
+    padding: 0;
     margin: 0;
-    padding: 1.5em;
-
-
 }
 .nav-link {
     color: var(--main-link-color);
     font-weight: bold;
     text-decoration: none;
-    padding: 1.5em;
-
 }
 .nav-link:hover {
     color: var(--link-color);
-
 }
 .profile {
     background: var(--light-bg);
@@ -94,4 +65,16 @@ a {
 }
 .text-muted {
     color: var(--main-link-color);
+}
+
+
+.nav-item{
+    display: inline-block;
+    padding: 1.5em;}
+
+
+.top-nav{
+    position: fixed;
+    width: 100%;
+
 }
