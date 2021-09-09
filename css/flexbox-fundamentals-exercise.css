@@ -24,7 +24,8 @@ h2, h3 {
     height: 1em;
     width: 2em;
     flex-direction: row;
-    justify-content: space-between;
+
+    justify-content: space-around;
 
 
 }
@@ -37,22 +38,37 @@ h2, h3 {
     background: white;
     padding: 1em;
     margin: 0 auto;
+        display: flex;
+
+    flex-direction: column;
+
+;
 
 }
 
 section {
+    display: flex;
 }
 
 section:nth-of-type(1) {
     height: 3em;
+
+    display: flex;
+
+
     background: lightgreen;
 
-    flex-direction: row;
+    justify-content: space-between;
 
+    align-items: center;
+
+    flex-direction: row;
 }
+
+
 section:nth-of-type(1) div:last-child {
-    /* enter needed declarations here */
-}
+
+justify-content: flex-start}
 
 .purple-box {
     background: fuchsia;
@@ -61,11 +77,16 @@ section:nth-of-type(1) div:last-child {
 }
 
 .purple-box:nth-of-type(1) {
-    /* enter needed declarations here */
+
+    flex-grow: 2;
+
 }
 
 .purple-box:nth-of-type(2) {
     /* enter needed declarations here */
+
+    flex-grow: 2;
+
 }
 
 .blue-box {
@@ -75,7 +96,8 @@ section:nth-of-type(1) div:last-child {
 }
 
 section:nth-of-type(3) {
-    /* enter needed declarations here */
+
+    justify-content: space-around;
 }
 
 section:nth-of-type(3) h3 {
@@ -96,6 +118,8 @@ section:nth-of-type(3) h3 {
     width: 5em;
     background: brown;
     /* enter needed declarations here */
+
+    flex-grow: 3;
 }
 
 .large-brown-box:nth-of-type(2) {
@@ -104,6 +128,10 @@ section:nth-of-type(3) h3 {
 
 section:nth-of-type(5) {
     /* enter needed declarations here */
+
+    justify-content: center;
+
+    justify-content: space-evenly;
 }
 
 .yellow-box {
@@ -118,6 +146,12 @@ section:nth-of-type(6) {
 
     flex-direction: row;
     /* enter needed declarations here */
+
+    align-items: center;
+
+    justify-content: space-around;
+
+    flex-wrap: wrap;
 }
 
 .grey-box {
