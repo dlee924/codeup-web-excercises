@@ -6,13 +6,18 @@
 body {
     margin: 0;
 }
+
+
+/* the whole header with <ul> list 1 and 2 + logo*/
 nav {
     background: #575252;
     justify-content: space-between;
     align-items: center;
     display: flex;
-
 }
+
+/*first and second list on the right and left side of header*/
+
 ul {
     list-style: none;
     padding: 10px;
