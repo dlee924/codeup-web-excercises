@@ -10,10 +10,11 @@ body{
 }
 
 
-#main{
+#main.main{
     display: flex;
     background-color: #ffffff;
     justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -72,7 +73,6 @@ img{
     width: 100%;
     justify-content: center;
     background-color: #4ca7e5;
-    /*border: 1.5px salmon;*/
     flex-direction: row;
 
 }
@@ -109,7 +109,7 @@ img{
         display: flex;
         font-size: 45px;
         margin: 10px ;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
 
@@ -119,23 +119,20 @@ img{
     .nav-links{
         display: flex;
 
-        padding: 10px;
-
         flex-direction: row;
         list-style: none;
 
-        justify-content: space-between;
 
     }
 
 
-   /*list{*/
-   /*    list-style: none;*/
-   /*    padding: 10px;*/
-   /*    margin: 0;*/
-   /*    display: none;*/
-   /*    justify-content: flex-end;*/
-   /*}*/
+   list{
+       display: flex;
+
+       padding: 10px;
+       margin: 0;
+       justify-content: flex-end;
+   }
 
 
 
@@ -187,34 +184,37 @@ img{
 /* paragraphs*/
 
 
-section{
+
+#main.main{
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    background-color: #ffffff;
+    margin-right: 250px;
+    width: 300em;
 
 }
-
-
 
 .sub-section{
     display: flex;
-    background-color: #ffffff;
-    flex-direction: row;
-    width: 300px;
+    margin-left: 300px;
+    width: 400em;
 
 
 }
 
 
-
-
-#main{
+footer{
     display: flex;
-    background-color: #ffffff;
-    flex-direction: row;
-    width: 300px;
 
+
+    margin-top: 500px;
 }
+
+
+
+
+
+
+
 
 
 
