@@ -11,7 +11,7 @@ body{
 
 
 #main.main{
-    display: none;
+    display: flex;
     background-color: #ffffff;
     justify-content: center;
     flex-direction: column;
@@ -87,10 +87,10 @@ img{
 /*DESKTOP VERSION*/
 
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:800px) {
 
 
-    body{
+    body {
         display: flex;
 
         flex-direction: column;
@@ -102,23 +102,28 @@ img{
     }
 
 
-
-
     /*COMPANY*/
-    h1{
+    h1 {
         display: flex;
-        font-size: 45px;
-        margin: 10px ;
-        justify-content: flex-start;
+        font-size: 50px;
+        margin-left: 0;
+        height: 10px;
     }
 
 
-
-
-
-    .nav-links{
+    nav {
         display: flex;
+        align-self: flex-end;
+        justify-content: flex-end;
 
+    }
+
+
+    .nav-links {
+
+
+        display: flex;
+        height: 0em;
         flex-direction: row;
         list-style: none;
 
@@ -126,20 +131,17 @@ img{
     }
 
 
-   list{
-       display: flex;
+    #list {
+        display: flex;
 
-       padding: 10px;
-       margin: 0;
-       justify-content: flex-end;
-   }
-
-
-
+        padding: 10px;
+        margin: 0;
+        justify-content: flex-end;
+    }
 
 
     /*picture*/
-    img{
+    img {
 
         display: flex;
 
@@ -149,15 +151,13 @@ img{
 
         flex-direction: row;
 
-        justify-content: space-around ;
+        justify-content: space-around;
 
     }
 
 
-
-
     /*skip content button disappeared*/
-    .alert-info{
+    .alert-info {
         display: none;
         width: 100%;
         justify-content: flex-end;
@@ -166,52 +166,36 @@ img{
 
     }
 
-    .alert-info > a{
+    .alert-info > a {
         color: black;
         padding: 1em;
     }
 
 
+    /* paragraphs*/
+    #main.main {
+        display: flex;
+        background-color: #ffffff;
+        margin-right: 500px;
+        flex-direction: column;
+
+    }
+
+    .sub-section {
+        display: flex;
+        margin-left: 300px;
+        flex-direction: column;
+    }
 
 
-}
+    footer {
+        display: flex;
 
 
-
-
-
-
-/* paragraphs*/
-
-
-
-#main.main{
-    display: flex;
-    background-color: #ffffff;
-    /*margin-right: 250px;*/
-    /*width: 300em;*/
-    flex-direction: column;
-
-}
-
-.sub-section{
-    display: flex;
-    /*margin-left: 300px;*/
-    /*width: 400em;*/
-    margin: auto;
-
+        margin-top: 400px;
+    }
 
 }
-
-
-footer{
-    display: flex;
-
-
-    /*margin-top: 500px;*/
-}
-
-
 
 
 
