@@ -11,7 +11,7 @@ body{
 
 
 #main.main{
-    display: flex;
+    display: none;
     background-color: #ffffff;
     justify-content: center;
     flex-direction: column;
@@ -87,7 +87,7 @@ img{
 /*DESKTOP VERSION*/
 
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:500px) {
 
 
     body{
@@ -188,15 +188,17 @@ img{
 #main.main{
     display: flex;
     background-color: #ffffff;
-    margin-right: 250px;
-    width: 300em;
+    /*margin-right: 250px;*/
+    /*width: 300em;*/
+    flex-direction: column;
 
 }
 
 .sub-section{
     display: flex;
-    margin-left: 300px;
-    width: 400em;
+    /*margin-left: 300px;*/
+    /*width: 400em;*/
+    margin: auto;
 
 
 }
@@ -206,7 +208,7 @@ footer{
     display: flex;
 
 
-    margin-top: 500px;
+    /*margin-top: 500px;*/
 }
 
 
