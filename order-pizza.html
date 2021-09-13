@@ -22,14 +22,8 @@
 
 <body>
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
 
-            </script>
-
-
-
-
-            <!--MY NAV BAR-->
+<!--MY NAV BAR-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Pizza planet</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,24 +78,35 @@
 
 
 <!-- heading for page tabs-->
-            <h2>Build your Own pizza<span class="badge badge-secondary">New</span></h2>
+            <h2>Build your Own pizza<span class="badge badge-secondary"></span></h2>
 
 
             <!-- page tabs-->
-            <ul class="nav nav-tabs">
 
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">size and crust</a>
-                </li>
+<ul class="nav nav-tabs" id="myTab" role="tablist">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">cheese and sauce</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Toppings</a>
-                </li>
 
-            </ul>
+    <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">size and Crust</a>
+    </li>
+
+
+    <li class="nav-item" role="presentation">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#card2" role="tab" aria-controls="profile" aria-selected="false">cheese and sauce</a>
+    </li>
+
+
+    <li class="nav-item" role="presentation">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Toppings</a>
+    </li>
+
+
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+</div>
 
 
 <!--    card for 1st tab        -->
@@ -119,16 +124,16 @@
 
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option2">
                                 <li class="list-group-item">small (10in)</li>
 
 
-
+                                <!--2nd card for 1st tab-->
 
 
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                                <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option3" disabled>
                                 <li class="list-group-item">large(20in)</li>
 
                             </div>
@@ -172,7 +177,8 @@
 
                 </div>
 
-                <div class="card-footer bg-transparent border-success">Footer
+                <div class="card-footer bg-transparent border-success">
+
                     <button type="button" class="btn btn-primary">next step</button>
 
 
@@ -180,6 +186,93 @@
                 </div>
 
 
+
+
+
+                <div class="card2" style="width: auto;">
+                    <div class="card-header">
+                        Thin crust
+
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+
+                        <div class="form-check">
+
+                            <li class="list-group-item">
+                                Thin-style crust
+                            </li>
+
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <li class="list-group-item">small (10in)</li>
+
+
+
+
+
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                            <li class="list-group-item">large(20in)</li>
+
+                        </div>
+                    </ul>
+
+
+                </div>
+
+                <div class="card-footer bg-transparent border-success">
+
+                    <button type="button" class="btn btn-primary">next step</button>
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+
+</script>
 </body>
 </html>
