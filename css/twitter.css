@@ -78,3 +78,86 @@ a {
     width: 100%;
 
 }
+
+.profile{
+    height: 100px;
+    width: auto;
+}
+
+
+.profile-image {
+    position: absolute;
+    top: 248px;
+}
+
+
+.profile-details {
+    float: left;
+    width: calc(25% - 1em);
+    margin: 1px 0.5em;
+}
+
+
+
+.profile-form {
+    float: left;
+    line-height: 100px;
+}
+
+
+.who-to-follow {
+    float: left;
+    width: calc(25% - 1em);
+    margin: 0 0.5em;
+}
+
+
+.timeline {
+    float: left;
+    width: calc(50% - 1em);
+    margin: 0 0.5em;
+}
+
+
+
+.who-to-follow {
+    float: right;
+    width: calc(25% - 1em);
+    margin: 0 0.5em;
+}
+
+.container {
+    margin-top: 2em;
+}
+
+
+.media {
+    width: 100%;
+    background-color: var(--light-bg);
+    border-bottom: 1px solid var(--separator-color);
+    padding: 0.5em;
+    overflow: hidden;
+}
+
+
+.media-body {
+    float: left;
+    width: calc(100% - 100px);
+}
+
+
+.media-image {
+    max-width: 50px;
+    float: left;
+    margin-top: 1.33em;
+}
+
+
+.profile-items {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-entry {
+    margin: 0.5em;
+}
