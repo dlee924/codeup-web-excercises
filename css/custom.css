@@ -1,0 +1,8 @@
+.jumbotron{
+    background-color: #ffffff;
+   background-image: url("../img/img.png");
+
+}
+.btn{
+    float: right;
+}

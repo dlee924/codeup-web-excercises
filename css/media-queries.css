@@ -34,8 +34,24 @@ nav{
 
     margin:1em auto;
 
+    padding: 1em;
+
+
 
 }
+
+
+/*.nav-links {*/
+
+
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    list-style: none;*/
+/*    padding: 0px;*/
+
+
+/*}*/
+
 
 
 
@@ -44,9 +60,11 @@ nav{
 li{
     display: flex;
     text-align: center;
-    padding: 10px;
-    margin: 5px auto;
-    align-items: flex-end;
+    padding: 1em 0;
+    margin: 6px auto;
+    background-color: lightgray;
+    width: 50px;
+
 }
 
 
@@ -95,7 +113,7 @@ img{
 
         flex-direction: column;
 
-        margin: 1em;
+        margin: auto;
 
         justify-content: space-between;
 
@@ -174,17 +192,17 @@ img{
 
     /* paragraphs*/
     #main.main {
-        display: flex;
+        display: inline-block;
         background-color: #ffffff;
         margin-right: 500px;
         flex-direction: column;
-
     }
 
     .sub-section {
-        display: flex;
+        display: inline-block;
         margin-left: 300px;
         flex-direction: column;
+
     }
 
 
@@ -192,7 +210,7 @@ img{
         display: flex;
 
 
-        margin-top: 400px;
+        margin-top: 250px;
     }
 
 }
