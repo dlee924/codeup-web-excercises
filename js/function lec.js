@@ -98,15 +98,43 @@
 
 
 
-function tellFortune(number,partnerName,location,job) {
+// function tellFortune(number,partnerName,location,job) {
+//
+//      console.log(" hi "+" you will be married to "+partnerName+"you will have a job in "+ job+"living in "+ location)
+//
+//      console.log("you will have "+ number +"kids "+ "when you live in "+ location)
+//
+//      console.log("hi "+ name +"you will live in " + location+ "with " +number+ "kids !")
+//
+//
+// }
+//
+// console.log(tellFortune(4,"darrell","killeen","technology"))
 
-     console.log(" hi "+" you will be married to "+partnerName+"you will have a job in "+ job+"living in "+ location)
 
-     console.log("you will have "+ number +"kids "+ "when you live in "+ location)
+console.log("darrell")
 
-     console.log("hi "+ name +"you will live in " + location+ "with " +number+ "kids !")
+var hasTacos = ["blueberry muffin", "bananas", "yogurt", "cereal", "brisket and egg taco"]
+
+var hasNoTaco = ["parfait", "omlette de frumage", "protein shake", "fasting"]
 
 
-}
 
-console.log(tellFortune(4,"darrell","killeen","technology"))
+
+               function tacoTuesday(arr) {
+
+
+                   for (var i = 0; 1 < arr.length; i++) {
+
+
+                       if(arr[i].include("taco")){
+
+                           return true;
+                       }
+
+                       else {return false}
+                   }
+
+
+               }
+
