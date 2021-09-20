@@ -112,29 +112,60 @@
 // console.log(tellFortune(4,"darrell","killeen","technology"))
 
 
-console.log("darrell")
+// console.log("darrell")
+//
+// var hasTacos = ["blueberry muffin", "bananas", "yogurt", "cereal", "brisket and egg taco"]
+//
+// var hasNoTaco = ["parfait", "omlette de frumage", "protein shake", "fasting"]
+//
+//
+//
+//
+//                function tacoTuesday(arr) {
+//
+//
+//                    for (var i = 0; 1 < arr.length; i++) {
+//
+//
+//                        if(arr[i].include("taco")){
+//
+//                            return true;
+//                        }
+//
+//                        else {return false}
+//                    }
+//
+//
+//                }
 
-var hasTacos = ["blueberry muffin", "bananas", "yogurt", "cereal", "brisket and egg taco"]
-
-var hasNoTaco = ["parfait", "omlette de frumage", "protein shake", "fasting"]
 
 
 
 
-               function tacoTuesday(arr) {
 
+//TODO: Finish coding this program. You need to stop the setInterval() method after the showTime() function has run five times
 
-                   for (var i = 0; 1 < arr.length; i++) {
+ let max = 5
+let count = 0;
 
+function showTime() {
 
-                       if(arr[i].include("taco")){
+    // return new date and time
+    let dateTime = new Date();
 
-                           return true;
-                       }
+    // return the time
+    let time = dateTime.toLocaleTimeString();
 
-                       else {return false}
-                   }
+    count += 1;
 
+    //if the count reaches 5, stop the program.
 
-               }
+    console.log(time)
 
+    if (count>=max){
+        clearInterval()
+
+    }
+}
+
+let display = setInterval(showTime, 5000);
