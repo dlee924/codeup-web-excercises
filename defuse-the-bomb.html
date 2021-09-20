@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<h2 id="message">This BOM will self destruct in <span id="timer">5</span> seconds...</h2>
+<h2 id="message">This BOMB will self-destruct in <span id="timer">5</span> seconds...</h2>
 <button id="defuser">Defuse the BOM</button>
 
 <script>
@@ -22,20 +22,20 @@
     function updateTimer() {
       if (detonationTimer ==0 ) {
         alert('EXTERMINATE!');
-        document.body.innerHTML = '';
+        document.body.innerHTML = 'BOOOOOOOOOOOOOOOOOMMMMMMMMMMM !!!!!!! THE BOMB HAS GONE OFF';
       } else if (detonationTimer > 0) {
         document.getElementById('timer').innerHTML = detonationTimer;
       }
 
 
 
+
       detonationTimer--;
-      // console.log()
     }
 
     // TODO: When this function runs, it needs to
     // cancel the interval/timeout for updateTimer()
-    function defuseTheBOM() {
+    function defuseTheBOMB() {
 
       clearInterval(display,3000)
 
@@ -47,7 +47,7 @@
     // when the "defuser" button is clicked.
     // We will learn about events in the DOM lessons
     var defuser = document.getElementById('defuser');
-    defuser.addEventListener('click', defuseTheBOM);
+    defuser.addEventListener('click', defuseTheBOMB);
   })();
 </script>
 </body>
