@@ -25,32 +25,69 @@
     culpa qui officia deserunt mollit anim id est laborum.
 </p>
 
+<button id="btn1">Click Me!</button>
+<button id="btn2">Click Me!</button>
+<button id="btn3">Click Me!</button>
+<button id="btn4">Click Me!</button>
+
+
 <script>
     (function() {
         "use strict";
         // TODO: Uncomment next line and get the main header element by id
         var mainHeader = document.getElementById("main-header") ;
 
+
+
         // TODO: Set inner html of mainHeader to "JavaScript is Cool"
 
-        mainHeader.innerHTML = "javascript is cool"
+        //Button 1
+
+        let button1 = document.getElementById("btn1")
+
+        button1.addEventListener("click", function () {
+            mainHeader.innerHTML = "javascript is cool"
+        })
+
+        // mainHeader.innerHTML = "javascript is cool"
 
         // TODO: Uncomment the next line and get the sub header element by id
+
+
         var subHeader = document.getElementById("sub-header");
 
         // TODO: Set the text color of subHeader to blue
 
-        subHeader.style.color = "blue"
+
+
+        //Button 2
+
+        let button2 = document.getElementById("btn2")
+
+        button2.addEventListener("click", function () {
+            subHeader.style.color = "blue"
+
+        })
+
+
+
+        // subHeader.style.color = "blue"
 
         // TODO: Uncomment the next line and get all list items
+
 
         var list = document.getElementsByTagName("li")
 
         // TODO: Set text color on every other list item to grey
 
+
+
             for (var i = 0; i < list.length;i++){
 
+
+
                 if(i % 2 === 1){
+
                     list[i].style.color = "grey"
                 }
                 }
@@ -60,7 +97,25 @@
 
         // TODO: Set text color of li with dbid = 1 to blue
 
-    list[0].style.color = "blue"
+
+
+        //Button 3
+
+
+        let button3 = document.getElementById("btn3")
+
+
+        button3.addEventListener("click", function () {
+            list[0].style.color = "blue"
+
+
+        })
+
+
+
+
+
+        // list[0].style.color = "blue"
 
 
         // TODO: Uncomment the next line and get all elements with class name sub-paragraph
@@ -68,9 +123,38 @@
 
         // TODO: Change the text in the first sub paragraph to "Mission Accomplished!"
 
-        subParagraphs[0].innerText = "Mission Accomplished!";
+
+        //Button 4
+
+
+        let button4 = document.getElementById("btn4")
+
+
+        button4.addEventListener("click", function () {
+
+            subParagraphs[0].innerText = "Mission Accomplished!";
+
+        })
+
+
+
+
+
+        // subParagraphs[0].innerText = "Mission Accomplished!";
 
     })();
+
+    // var button3 = document.getElementById("btn3")
+
+
+
+
+
+
+
 </script>
 </body>
 </html>
+
+
+
