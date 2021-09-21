@@ -142,30 +142,48 @@
 
 
 
+//
+// //TODO: Finish coding this program. You need to stop the setInterval() method after the showTime() function has run five times
+//
+//  let max = 5
+// let count = 0;
+//
+// function showTime() {
+//
+//     // return new date and time
+//     let dateTime = new Date();
+//
+//     // return the time
+//     let time = dateTime.toLocaleTimeString();
+//
+//     count += 1;
+//
+//     //if the count reaches 5, stop the program.
+//
+//     console.log(time)
+//
+//     if (count>=max){
+//         clearInterval()
+//
+//     }
+// }
+//
+// let display = setInterval(showTime, 5000);
 
-//TODO: Finish coding this program. You need to stop the setInterval() method after the showTime() function has run five times
 
- let max = 5
-let count = 0;
 
-function showTime() {
+function logsEven() {
 
-    // return new date and time
-    let dateTime = new Date();
 
-    // return the time
-    let time = dateTime.toLocaleTimeString();
+    var arr = [1, 2, 3, 4, 5, 6,7,8,9,10];
 
-    count += 1;
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            console.log((arr[i] ));;
+        }}}
 
-    //if the count reaches 5, stop the program.
+console.log(logsEven());
 
-    console.log(time)
 
-    if (count>=max){
-        clearInterval()
 
-    }
-}
-
-let display = setInterval(showTime, 5000);
+    
